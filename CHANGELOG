@@ -1,0 +1,11 @@
+# Changelog
+
+Toutes les modifications notables de ce projet seront documentées ici.
+
+## [Unreleased]
+### Ajouté
+- Interface en ligne de commande avec `argh` permettant de sélectionner des traitements et options.
+
+## [1.0.0] - 2025-01-16
+### Ajouté
+- Changement et sauvegarde d'image en effectuant un passage en monochrome par seuillage
