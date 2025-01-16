@@ -9,3 +9,5 @@ Toutes les modifications notables de ce projet seront documentées ici.
 ## [1.0.0] - 2025-01-16
 ### Ajouté
 - Changement et sauvegarde d'image en effectuant un passage en monochrome par seuillage
+- Changement et sauvegarde d'image en effectuant un passage en palette de 8 couleurs
+

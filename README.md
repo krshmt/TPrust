@@ -16,3 +16,7 @@
     ```
 
     Après l'éxecution du code, l'image doit se trouver dans le fichier src/images/IUT_seuillage.png 
+
+3. Passer l'image sur une palette de 8 couleurs:
+
+   cargo run --bin palette
