@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 image = "0.24.9"
+rand = "0.8.4"
 
 [[bin]]
 name = "seuillage"
@@ -15,3 +16,7 @@ path = "src/seuillage.rs"
 [[bin]]
 name = "palette"
 path = "src/palette.rs"
+
+[[bin]]
+name = "tramage"
+path = "src/tramage.rs"
