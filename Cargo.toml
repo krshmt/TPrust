@@ -11,3 +11,7 @@ image = "0.24.9"
 [[bin]]
 name = "seuillage"
 path = "src/seuillage.rs"
+
+[[bin]]
+name = "palette"
+path = "src/palette.rs"
