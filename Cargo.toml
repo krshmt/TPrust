@@ -14,5 +14,9 @@ name = "seuillage"
 path = "src/seuillage.rs"
 
 [[bin]]
+name = "palette"
+path = "src/palette.rs"
+
+[[bin]]
 name = "tramage"
 path = "src/tramage.rs"
