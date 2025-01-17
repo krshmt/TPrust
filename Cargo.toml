@@ -20,3 +20,15 @@ path = "src/palette.rs"
 [[bin]]
 name = "tramage"
 path = "src/tramage.rs"
+
+[[bin]]
+name = "diffusion"
+path = "src/diffusion.rs"
+
+[[bin]]
+name = "diffusion-palette"
+path = "src/diffusion-palette.rs"
+
+[[bin]]
+name = "diffusion-steinberg"
+path = "src/diffusion-steinberg.rs"
