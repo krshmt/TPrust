@@ -15,3 +15,7 @@ path = "src/seuillage.rs"
 [[bin]]
 name = "palette"
 path = "src/palette.rs"
+
+[[bin]]
+name = "matrice_de_Bayer"
+path = "src/matrice_de_Bayer.rs"
