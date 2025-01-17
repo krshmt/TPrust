@@ -10,4 +10,5 @@ Toutes les modifications notables de ce projet seront documentées ici.
 ### Ajouté
 - Changement et sauvegarde d'image en effectuant un passage en monochrome par seuillage
 - Changement et sauvegarde d'image en effectuant un passage en palette de 8 couleurs
-
+- Changement et sauvegarde d'image en effectuant une matrice de Bayer
+- Changement et sauvegarde d'image en effectuant un tramage aléatoire
