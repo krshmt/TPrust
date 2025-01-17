@@ -25,3 +25,14 @@ path = "src/matrice_de_Bayer.rs"
 name = "tramage"
 path = "src/tramage.rs"
 
+[[bin]]
+name = "diffusion"
+path = "src/diffusion.rs"
+
+[[bin]]
+name = "diffusion-palette"
+path = "src/diffusion-palette.rs"
+
+[[bin]]
+name = "diffusion-steinberg"
+path = "src/diffusion-steinberg.rs"

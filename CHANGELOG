@@ -12,3 +12,7 @@ Toutes les modifications notables de ce projet seront documentées ici.
 - Changement et sauvegarde d'image en effectuant un passage en palette de 8 couleurs
 - Changement et sauvegarde d'image en effectuant une matrice de Bayer
 - Changement et sauvegarde d'image en effectuant un tramage aléatoire
+
+## [1.0.1] - 2025-01-17
+### Ajouté
+- Changement et sauvegarde d'image en effectuant la diffusion d'erreur/diffusion d'erreur avec palettisation et la matrice de Floyd-Steinberg
