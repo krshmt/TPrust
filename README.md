@@ -87,3 +87,19 @@
     ```
 
     Après l'éxecution du code, l'image doit se trouver dans le fichier src/images/diffusion-steinberg.png
+
+Question 2:
+
+Le type DynamicImage correspond a une image dans la mémoire.
+Pour obtenir une image en mode rbg8 à partir de ce DynamicImage on peut utiliser la méthode to_rgb8() qui renvoie une image au format RGB avec 8 bits par canal.
+
+Question 3:
+
+ le canal alpha est supprimé.
+L'image contiendra uniquement trois canaux (Rouge, Vert, Bleu).
+
+Question 5:
+
+oui l'image est reconnaissable
+
+
