@@ -25,12 +25,16 @@ fn main() {
     for (x, y, pixel) in img.pixels() {
         let Rgba(data) = pixel;
 
-        let closest_color = palette.iter().min_by_key(|&&color| {
-            let dr = color[0] as i32 - data[0] as i32;
-            let dg = color[1] as i32 - data[1] as i32;
-            let db = color[2] as i32 - data[2] as i32;
-            dr * dr + dg * dg + db * db
-        }).unwrap();
+        let closest_color = if palette.is_empty() {
+            Rgba([0, 0, 0, 255])
+        } else {
+            *palette.iter().min_by_key(|&&color| {
+                let dr = color[0] as i32 - data[0] as i32;
+                let dg = color[1] as i32 - data[1] as i32;
+                let db = color[2] as i32 - data[2] as i32;
+                dr * dr + dg * dg + db * db
+            }).unwrap()
+        };
 
         img_buffer.put_pixel(x, y, *closest_color);
     }
